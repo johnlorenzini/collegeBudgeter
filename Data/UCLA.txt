@@ -1,0 +1,12 @@
+Grocery
+104.5
+Health
+89.4
+Utilities
+101
+Transportation
+155.5
+Miscellaneous
+103.7
+Savings
+100
