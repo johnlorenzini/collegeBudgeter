@@ -21,7 +21,7 @@ public class Compute {
         cityIndex = new HashMap<String, Double>();
     }
 
-	public String[][] threeDArray(){
+	public String[][] threeDArray(){ //Converts Map to 2D array for Swing purposes
 		String[][] combined = new String[cityIndex.size()][2];
 		int count = 0;
 		for(String i : cityIndex.keySet()){
@@ -37,7 +37,7 @@ public class Compute {
 	}
 
 
-	public void defaultValues(){
+	public void defaultValues(){ //Updates balance chart with default "Recommended" budget values (To be utilized with updateBudgetPercentages in the future)
 		for(int i = 0; i < budgetPercentages.length; i++){
 			switch(i){
 				case 0:
@@ -64,7 +64,7 @@ public class Compute {
 		}
 	}
 
-	public void updateBudgetPercentages(String n){ //allows user to specify custom budget percentages
+	public void updateBudgetPercentages(String n){ //allows user to specify custom budget percentages (TO BE IMPLEMENTED)
 		boolean execute = true;
 		while(execute);
 			if(n.equals("y")){
